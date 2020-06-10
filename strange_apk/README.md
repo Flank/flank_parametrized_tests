@@ -30,3 +30,6 @@ https://console.firebase.google.com/project/flank-open-source/testlab/histories/
 
 ./parametrized_fix.sh disable-sharding-true.yml
 https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6684388667659871924
+
+./parametrized_fix.sh disable-sharding-false.yml
+https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6939201660003777460
