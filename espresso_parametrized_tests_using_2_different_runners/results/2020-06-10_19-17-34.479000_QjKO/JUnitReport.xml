@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites>
+  <testsuite name="NexusLowRes-28-en-portrait" tests="11" failures="0" flakes="0" errors="0" skipped="0" time="3.059" timestamp="2020-06-10T19:19:34" hostname="localhost">
+    <testcase name="testBar" classname="com.example.test_app.bar.BarInstrumentedTest" time="0.972"/>
+    <testcase name="test0" classname="com.example.test_app.InstrumentedTest" time="0.266"/>
+    <testcase name="test1" classname="com.example.test_app.InstrumentedTest" time="0.319"/>
+    <testcase name="test2" classname="com.example.test_app.InstrumentedTest" time="0.241"/>
+    <testcase name="clickRightButton[0]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.266"/>
+    <testcase name="clickRightButton[1]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.267"/>
+    <testcase name="clickRightButton[2]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.292"/>
+    <testcase name="testFoo" classname="com.example.test_app.foo.FooInstrumentedTest" time="0.241"/>
+    <testcase name="shouldHopefullyPass[0]" classname="com.example.test_app.ParameterizedTest" time="0.065"/>
+    <testcase name="shouldHopefullyPass[1]" classname="com.example.test_app.ParameterizedTest" time="0.065"/>
+    <testcase name="shouldHopefullyPass[2]" classname="com.example.test_app.ParameterizedTest" time="0.065"/>
+  </testsuite>
+</testsuites>

@@ -20,6 +20,12 @@ https://console.firebase.google.com/u/0/project/flank-open-source/testlab/histor
 parametrized_fix.sh disable-sharding-true.yml
 https://console.firebase.google.com/u/0/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/7434925186008279669
 
+./master.sh orchestrator-false.yml
+https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/8122214400763574359/executions/bs.bccefadbea565c6d/test-cases
+
+./parametrized_fix.sh orchestrator-false.yml
+https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/7686810195272764608/executions/bs.3abd497f77062358/test-cases
+
 ```
 diff android_shards-master.json android_shards-parametrized_fix.json
 10d9

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="" tests="11" failures="0" errors="0" skipped="0" time="3.008" timestamp="2020-06-10T19:19:21" hostname="localhost">
+  <properties />
+  <testcase name="testBar" classname="com.example.test_app.bar.BarInstrumentedTest" time="0.907" />
+  <testcase name="test0" classname="com.example.test_app.InstrumentedTest" time="0.176" />
+  <testcase name="test1" classname="com.example.test_app.InstrumentedTest" time="0.151" />
+  <testcase name="test2" classname="com.example.test_app.InstrumentedTest" time="0.151" />
+  <testcase name="clickRightButton[0]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.227" />
+  <testcase name="clickRightButton[1]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.151" />
+  <testcase name="clickRightButton[2]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.176" />
+  <testcase name="shouldHopefullyPass[0]" classname="com.example.test_app.ParameterizedTest" time="0.0" />
+  <testcase name="shouldHopefullyPass[1]" classname="com.example.test_app.ParameterizedTest" time="0.0" />
+  <testcase name="shouldHopefullyPass[2]" classname="com.example.test_app.ParameterizedTest" time="0.0" />
+  <testcase name="testFoo" classname="com.example.test_app.foo.FooInstrumentedTest" time="0.177" />
+</testsuite>
