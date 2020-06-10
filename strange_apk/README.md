@@ -21,6 +21,9 @@ public final class InstrumentedTest extends BaseInstrumentedTest {
 }
 ```
 
-./gcloud.sh result:
+./gcloud.sh
 https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6863124226144714655/executions/bs.a2f29a317006c5c2/test-cases
 - We need to investigate why tests case name is different in firebase and android_shards.json  
+
+./gcloud_sharding.sh
+https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/8130649400192067831
