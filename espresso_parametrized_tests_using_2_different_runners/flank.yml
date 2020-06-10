@@ -1,0 +1,5 @@
+gcloud:
+  app: app-multiple-success-debug.apk
+  test: app-multiple-success-debug-androidTest.apk
+flank:
+  disable-sharding: false
