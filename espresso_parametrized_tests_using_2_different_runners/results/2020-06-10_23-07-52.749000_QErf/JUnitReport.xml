@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites>
+  <testsuite name="NexusLowRes-28-en-portrait" tests="17" failures="0" flakes="0" errors="0" skipped="0" time="4.856" timestamp="2020-06-10T23:09:46" hostname="localhost">
+    <testcase name="test0" classname="com.example.test_app.InstrumentedTest" time="1.047"/>
+    <testcase name="test1" classname="com.example.test_app.InstrumentedTest" time="0.317"/>
+    <testcase name="test2" classname="com.example.test_app.InstrumentedTest" time="0.241"/>
+    <testcase name="shouldHopefullyPass[0]" classname="com.example.test_app.ParameterizedTest" time="0.065"/>
+    <testcase name="shouldHopefullyPass[1]" classname="com.example.test_app.ParameterizedTest" time="0.065"/>
+    <testcase name="shouldHopefullyPass[2]" classname="com.example.test_app.ParameterizedTest" time="0.065"/>
+    <testcase name="testBar" classname="com.example.test_app.bar.BarInstrumentedTest" time="0.291"/>
+    <testcase name="testFoo" classname="com.example.test_app.foo.FooInstrumentedTest" time="0.317"/>
+    <testcase name="clickRightButton[0]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.292"/>
+    <testcase name="clickRightButton[1]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.318"/>
+    <testcase name="clickRightButton[2]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.292"/>
+    <testcase name="clickRightButtonFromMethod(toast, toast) [0]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.292"/>
+    <testcase name="clickRightButtonFromMethod(alert, alert) [1]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.317"/>
+    <testcase name="clickRightButtonFromMethod(exception, exception) [2]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.241"/>
+    <testcase name="clickRightButtonFromAnnotation(toast, toast) [0]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.242"/>
+    <testcase name="clickRightButtonFromAnnotation(alert, alert) [1]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.191"/>
+    <testcase name="clickRightButtonFromAnnotation(exception, exception) [2]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.267"/>
+  </testsuite>
+</testsuites>

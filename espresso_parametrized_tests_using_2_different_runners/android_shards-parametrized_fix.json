@@ -7,12 +7,11 @@
         "class com.example.test_app.InstrumentedTest#test0",
         "class com.example.test_app.InstrumentedTest#test1",
         "class com.example.test_app.InstrumentedTest#test2",
+        "class com.example.test_app.ParameterizedTest#shouldHopefullyPass",
         "class com.example.test_app.bar.BarInstrumentedTest#testBar",
         "class com.example.test_app.foo.FooInstrumentedTest#testFoo",
-        "class com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner#clickRightButtonFromAnnotation",
-        "class com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner#clickRightButtonFromMethod",
-        "class com.example.test_app.ParameterizedTest",
-        "class com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized"
+        "class com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized#clickRightButton",
+        "class com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner"
       ]
     }
   }

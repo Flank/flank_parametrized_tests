@@ -3,5 +3,5 @@
 set -euxo pipefail
 
 java -jar ../flank-parametrized-test-fix.jar android run \
-  -c=flank.yml \
+  -c=orchestrator-true.yml \
   --dump-shards

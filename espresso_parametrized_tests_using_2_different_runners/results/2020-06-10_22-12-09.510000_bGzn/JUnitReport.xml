@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites>
+  <testsuite name="NexusLowRes-28-en-portrait" tests="17" failures="0" flakes="0" errors="0" skipped="0" time="4.645" timestamp="2020-06-10T22:14:17" hostname="localhost">
+    <testcase name="testBar" classname="com.example.test_app.bar.BarInstrumentedTest" time="1.032"/>
+    <testcase name="clickRightButtonFromMethod(toast, toast) [0]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.302"/>
+    <testcase name="clickRightButtonFromMethod(alert, alert) [1]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.252"/>
+    <testcase name="clickRightButtonFromMethod(exception, exception) [2]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.352"/>
+    <testcase name="clickRightButtonFromAnnotation(toast, toast) [0]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.276"/>
+    <testcase name="clickRightButtonFromAnnotation(alert, alert) [1]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.252"/>
+    <testcase name="clickRightButtonFromAnnotation(exception, exception) [2]" classname="com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner" time="0.252"/>
+    <testcase name="test0" classname="com.example.test_app.InstrumentedTest" time="0.251"/>
+    <testcase name="test1" classname="com.example.test_app.InstrumentedTest" time="0.226"/>
+    <testcase name="test2" classname="com.example.test_app.InstrumentedTest" time="0.251"/>
+    <testcase name="clickRightButton[0]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.252"/>
+    <testcase name="clickRightButton[1]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.226"/>
+    <testcase name="clickRightButton[2]" classname="com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized" time="0.277"/>
+    <testcase name="shouldHopefullyPass[0]" classname="com.example.test_app.ParameterizedTest" time="0.075"/>
+    <testcase name="shouldHopefullyPass[1]" classname="com.example.test_app.ParameterizedTest" time="0.075"/>
+    <testcase name="shouldHopefullyPass[2]" classname="com.example.test_app.ParameterizedTest" time="0.075"/>
+    <testcase name="testFoo" classname="com.example.test_app.foo.FooInstrumentedTest" time="0.226"/>
+  </testsuite>
+</testsuites>

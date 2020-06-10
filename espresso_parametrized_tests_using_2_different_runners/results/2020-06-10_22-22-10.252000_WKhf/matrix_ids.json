@@ -1,0 +1,13 @@
+{
+  "matrix-1vudys4re2gqj": {
+    "matrixId": "matrix-1vudys4re2gqj",
+    "state": "FINISHED",
+    "gcsPath": "test-lab-v9cn46bb990nx-kz69ymd4nm9aq/2020-06-10_22-22-10.252000_WKhf/matrix_0/",
+    "webLink": "https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/7809772954244800450/executions/bs.f665cdc25675e239",
+    "downloaded": true,
+    "billableVirtualMinutes": 1,
+    "billablePhysicalMinutes": 0,
+    "outcome": "failure",
+    "outcomeDetails": ""
+  }
+}

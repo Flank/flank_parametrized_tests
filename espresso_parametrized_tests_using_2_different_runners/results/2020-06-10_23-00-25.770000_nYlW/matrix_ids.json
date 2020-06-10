@@ -1,0 +1,13 @@
+{
+  "matrix-15aj39lwxmqjs": {
+    "matrixId": "matrix-15aj39lwxmqjs",
+    "state": "FINISHED",
+    "gcsPath": "test-lab-v9cn46bb990nx-kz69ymd4nm9aq/2020-06-10_23-00-25.770000_nYlW/matrix_0/",
+    "webLink": "https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/8987424021443128667/executions/bs.2ff84a9b887bbaef",
+    "downloaded": true,
+    "billableVirtualMinutes": 1,
+    "billablePhysicalMinutes": 0,
+    "outcome": "success",
+    "outcomeDetails": ""
+  }
+}
