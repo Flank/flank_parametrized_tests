@@ -1,4 +1,6 @@
-java -jar ../flank-master.jar firebase test android run -c=flank.yml
+#!/usr/bin/env bash
+
+set -euxo pipefail
 
 gcloud beta firebase test android run \
   --type instrumentation \
