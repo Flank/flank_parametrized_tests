@@ -1,0 +1,18 @@
+{
+  "matrix-0": {
+    "app": "/Users/janek/projects/flank-project/bugs/param/flank_parametrized_tests/standart_parametrized_test/app-debug.apk",
+    "test": "/Users/janek/projects/flank-project/bugs/param/flank_parametrized_tests/standart_parametrized_test/app-multiple-success-debug-androidTest.apk",
+    "shards": {
+      "shard-0": [
+        "class com.example.test_app.InstrumentedTest#test1",
+        "class com.example.test_app.InstrumentedTest#test2",
+        "class com.example.test_app.ParameterizedTest"
+      ],
+      "shard-1": [
+        "class com.example.test_app.InstrumentedTest#test0",
+        "class com.example.test_app.bar.BarInstrumentedTest#testBar",
+        "class com.example.test_app.foo.FooInstrumentedTest#testFoo"
+      ]
+    }
+  }
+}
