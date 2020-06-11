@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="" tests="3" failures="0" errors="0" skipped="0" time="1.702" timestamp="2020-06-10T18:12:17" hostname="localhost">
+  <properties />
+  <testcase name="test1" classname="com.example.test_app.InstrumentedTest" time="0.931" />
+  <testcase name="test2" classname="com.example.test_app.InstrumentedTest" time="0.202" />
+  <testcase name="testFoo" classname="com.example.test_app.foo.FooInstrumentedTest" time="0.177" />
+</testsuite>
