@@ -1,0 +1,25 @@
+gcloud-orchestrator-sharding.sh
++ gcloud beta firebase test android run --type instrumentation --app app-multiple-success-debug.apk --test app-multiple-success-debug-androidTest.apk --device model=NexusLowRes,version=28,locale=en,orientation=portrait --test-targets-for-shard 'class com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized' --test-targets-for-shard 'class com.example.test_app.parametrized.EspressoParametrizedClassParameterizedNamed' --test-targets-for-shard 'class com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner' --use-orchestrator
+
+Have questions, feedback, or issues? Get support by visiting:
+  https://firebase.google.com/support/
+
+Uploading [app-multiple-success-debug.apk] to Firebase Test Lab...
+Uploading [app-multiple-success-debug-androidTest.apk] to Firebase Test Lab...
+Raw results will be stored in your GCS bucket at [https://console.developers.google.com/storage/browser/test-lab-v9cn46bb990nx-kz69ymd4nm9aq/2020-06-12_18:01:01.977400_IBCN/]
+
+Test [matrix-10vn32sxjghol] has been created in the Google Cloud.
+Firebase Test Lab will execute your instrumentation test on 3 device(s).
+Creating individual test executions...
+...................done.
+
+Test results will be streamed to [https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6778598820310428738].
+18:01:53 Test matrix status: Pending:3 18:02:06 Test matrix status: Pending:3 18:02:19 Test matrix status: Running:3 18:02:32 Test matrix status: Running:3 18:02:45 Test matrix status: Running:3 18:02:58 Test matrix status: Running:3 18:03:11 Test matrix status: Running:3 18:03:23 Test matrix status: Running:3 18:03:36 Test matrix status: Running:3 18:03:49 Test matrix status: Running:3 18:04:02 Test matrix status: Running:3 18:04:14 Test matrix status: Running:3 18:04:26 Test matrix status: Running:3 18:04:39 Test matrix status: Running:3 18:04:52 Test matrix status: Running:3 18:05:05 Test matrix status: Finished:2 Running:1 18:05:18 Test matrix status: Finished:3           
+Instrumentation testing complete.
+
+More details are available at [https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6778598820310428738].
++---------+----------------------------+-------------------------------+
+| OUTCOME |      TEST_AXIS_VALUE       |          TEST_DETAILS         |
++---------+----------------------------+-------------------------------+
+| Failed  | NexusLowRes-28-en-portrait | 3 test cases failed, 6 passed |
++---------+----------------------------+-------------------------------+

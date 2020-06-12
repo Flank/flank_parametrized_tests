@@ -1,0 +1,32 @@
+local-orchestrator.sh
++ adb install -r orchestrator-1.3.0-rc01.apk
+Performing Streamed Install
+Success
++ adb install -r test-services-1.3.0-rc01.apk
+Performing Streamed Install
+Success
++ adb install app-multiple-success-debug.apk
+Performing Streamed Install
+Success
++ adb install app-multiple-success-debug-androidTest.apk
+Performing Streamed Install
+Success
++ adb shell 'CLASSPATH=$(pm path androidx.test.services) app_process / \
+  androidx.test.services.shellexecutor.ShellMain am instrument -w -e \
+  package com.example.test_app \
+  com.example.test_app.test/androidx.test.runner.AndroidJUnitRunner \
+  androidx.test.orchestrator/.AndroidTestOrchestrator'
+
+com.example.test_app.InstrumentedTest:...
+com.example.test_app.ParameterizedTest:...
+com.example.test_app.bar.BarInstrumentedTest:.
+com.example.test_app.foo.FooInstrumentedTest:.
+com.example.test_app.parametrized.EspressoParametrizedClassParameterizedNamed:...
+com.example.test_app.parametrized.EspressoParametrizedClassTestParameterized:...
+com.example.test_app.parametrized.EspressoParametrizedMethodTestJUnitParamsRunner:......
+
+Time: 15.275
+
+OK (20 tests)
+
+
