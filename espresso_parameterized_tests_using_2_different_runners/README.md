@@ -46,6 +46,16 @@ https://github.com/Flank/flank/pull/840/commits/1b737b85f7992c3b2b8a33bcbd550d37
 - @RunWith(Parameterized::class) {named} OK
 - @RunWith(Parameterized::class) OK
 
+./gcloud-orchestrator.sh
+https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6391575692365457926].
+- @RunWith(JUnitParamsRunner::class) not running
+- @RunWith(Parameterized::class) {named} OK
+- @RunWith(Parameterized::class) OK
+
+./gcloud-orchestrator-sharding.sh
+https://console.firebase.google.com/u/0/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/9090508388263593162
+- @RunWith(JUnitParamsRunner::class) fails
+- other tests not running
 ```
 diff android_shards-master.json android_shards-parameterized_fix.json
 10d9
