@@ -1,7 +1,0 @@
-gcloud:
-  app: app-debug.apk
-  test: app-multiple-success-debug-androidTest.apk
-  use-orchestrator: false
-flank:
-  disable-sharding: false
-  max-test-shards: 2

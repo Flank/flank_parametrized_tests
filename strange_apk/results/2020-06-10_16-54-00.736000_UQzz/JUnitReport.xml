@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<testsuites>
-  <testsuite name="NexusLowRes-28-en-portrait" tests="1" failures="0" flakes="0" errors="0" skipped="0" time="1.162" timestamp="2020-06-10T16:56:12" hostname="localhost">
-    <testcase name="Launch new screens" classname="Programmatic access" time="1.162"/>
-  </testsuite>
-</testsuites>

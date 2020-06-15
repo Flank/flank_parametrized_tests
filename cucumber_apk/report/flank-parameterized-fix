@@ -1,0 +1,104 @@
++ java -jar ../flank-parameterized-test-fix.jar firebase test android run -c=disable-sharding.yml
+version: local_snapshot
+revision: 25d77434de93222863367c95020d59417ee454b5
+
+AndroidArgs
+    gcloud:
+      results-bucket: test-lab-v9cn46bb990nx-kz69ymd4nm9aq
+      results-dir: 2020-06-15_16-42-07.696000_OMMz
+      record-video: false
+      timeout: 15m
+      async: false
+      client-details: 
+      network-profile: null
+      results-history-name: null
+      # Android gcloud
+      app: /Users/janek/projects/flank-project/bugs/param/flank_parametrized_tests/cucumber_apk/app-single-success-debug.apk
+      test: /Users/janek/projects/flank-project/bugs/param/flank_parametrized_tests/cucumber_apk/app-single-success-debug-androidTest.apk
+      additional-apks: 
+      auto-google-login: false
+      use-orchestrator: false
+      directories-to-pull:
+      other-files:
+      performance-metrics: false
+      num-uniform-shards: null
+      test-runner-class: null
+      test-targets:
+      robo-directives:
+      robo-script: null
+      device:
+        - model: NexusLowRes
+          version: 28
+          locale: en
+          orientation: portrait
+      num-flaky-test-attempts: 0
+
+    flank:
+      max-test-shards: 1
+      shard-time: -1
+      num-test-runs: 1
+      smart-flank-gcs-path: 
+      smart-flank-disable-upload: false
+      files-to-download:
+      test-targets-always-run:
+      disable-sharding: true
+      project: flank-open-source
+      local-result-dir: results
+      full-junit-result: false
+      # Android Flank Yml
+      keep-file-path: false
+      additional-app-test-apks:
+      run-timeout: -1
+      legacy-junit-result: false
+      ignore-failed-tests: false
+      output-style: verbose
+
+RunTests
+  Uploading app-single-success-debug.apk .
+  Uploading app-single-success-debug-androidTest.apk ..
+  1 test / 1 shard
+
+  1 matrix ids created in 0m 23s
+  https://console.developers.google.com/storage/browser/test-lab-v9cn46bb990nx-kz69ymd4nm9aq/2020-06-15_16-42-07.696000_OMMz
+
+Matrices webLink
+  matrix-wutoggienhbsa https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/8537037992536642140/executions/bs.97669f19900edb2e
+
+  0m  0s matrix-wutoggienhbsa NexusLowRes-28 PENDING
+  0m 24s matrix-wutoggienhbsa NexusLowRes-28 Starting attempt 1.
+  0m 24s matrix-wutoggienhbsa NexusLowRes-28 RUNNING
+  1m 34s matrix-wutoggienhbsa NexusLowRes-28 Started logcat recording.
+  1m 34s matrix-wutoggienhbsa NexusLowRes-28 Preparing device.
+  1m 58s matrix-wutoggienhbsa NexusLowRes-28 Installing apps.
+  2m 10s matrix-wutoggienhbsa NexusLowRes-28 Retrieving Pre-Test Package Stats information from the device.
+  2m 10s matrix-wutoggienhbsa NexusLowRes-28 Retrieving Performance Environment information from the device.
+  2m 10s matrix-wutoggienhbsa NexusLowRes-28 Started crash detection.
+  2m 10s matrix-wutoggienhbsa NexusLowRes-28 Started crash monitoring.
+  2m 10s matrix-wutoggienhbsa NexusLowRes-28 Starting instrumentation test.
+  2m 10s matrix-wutoggienhbsa NexusLowRes-28 Completed instrumentation test.
+  2m 34s matrix-wutoggienhbsa NexusLowRes-28 Stopped crash monitoring.
+  2m 34s matrix-wutoggienhbsa NexusLowRes-28 Retrieving Post-test Package Stats information from the device.
+  2m 34s matrix-wutoggienhbsa NexusLowRes-28 Stopped logcat recording.
+  2m 40s matrix-wutoggienhbsa NexusLowRes-28 Done. Test time = 4 (secs)
+  2m 40s matrix-wutoggienhbsa NexusLowRes-28 Starting results processing. Attempt: 1
+  2m 40s matrix-wutoggienhbsa NexusLowRes-28 Completed results processing. Time taken = 1 (secs)
+  2m 40s matrix-wutoggienhbsa NexusLowRes-28 FINISHED
+  2m 40s matrix-wutoggienhbsa FINISHED
+
+FetchArtifacts
+  .
+  Updating matrix file
+
+CostReport
+  Virtual devices
+    $0.02 for 1m
+
+MatrixResultsReport
+  1 / 1 (100.00%)
+More details are available at [https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/8537037992536642140]
+┌─────────┬────────────────────────┬────────────────────┐
+│ OUTCOME │    TEST_AXIS_VALUE     │    TEST_DETAILS    │
+├─────────┼────────────────────────┼────────────────────┤
+│ [32msuccess[0m │  matrix-wutoggienhbsa  │                    │
+└─────────┴────────────────────────┴────────────────────┘
+  Uploading JUnitReport.xml .

@@ -1,0 +1,117 @@
++ java -jar ../flank-parameterized-test-fix.jar firebase test android run -c=enable-sharding.yml
+version: local_snapshot
+revision: 25d77434de93222863367c95020d59417ee454b5
+
+AndroidArgs
+    gcloud:
+      results-bucket: test-lab-v9cn46bb990nx-kz69ymd4nm9aq
+      results-dir: 2020-06-15_16-42-07.694000_hAtE
+      record-video: false
+      timeout: 15m
+      async: false
+      client-details: 
+      network-profile: null
+      results-history-name: null
+      # Android gcloud
+      app: /Users/janek/projects/flank-project/bugs/param/flank_parametrized_tests/cucumber_apk/app-single-success-debug.apk
+      test: /Users/janek/projects/flank-project/bugs/param/flank_parametrized_tests/cucumber_apk/app-single-success-debug-androidTest.apk
+      additional-apks: 
+      auto-google-login: false
+      use-orchestrator: false
+      directories-to-pull:
+      other-files:
+      performance-metrics: false
+      num-uniform-shards: null
+      test-runner-class: null
+      test-targets:
+      robo-directives:
+      robo-script: null
+      device:
+        - model: NexusLowRes
+          version: 28
+          locale: en
+          orientation: portrait
+      num-flaky-test-attempts: 0
+
+    flank:
+      max-test-shards: 1
+      shard-time: -1
+      num-test-runs: 1
+      smart-flank-gcs-path: 
+      smart-flank-disable-upload: false
+      files-to-download:
+      test-targets-always-run:
+      disable-sharding: false
+      project: flank-open-source
+      local-result-dir: results
+      full-junit-result: false
+      # Android Flank Yml
+      keep-file-path: false
+      additional-app-test-apks:
+      run-timeout: -1
+      legacy-junit-result: false
+      ignore-failed-tests: false
+      output-style: multi
+
+RunTests
+
+ Smart Flank cache hit: 0% (0 / 1)
+  Shard times: 120s
+
+  Uploading app-single-success-debug.apk .
+  Uploading app-single-success-debug-androidTest.apk ..
+  1 test / 1 shard
+
+  1 matrix ids created in 0m 24s
+  https://console.developers.google.com/storage/browser/test-lab-v9cn46bb990nx-kz69ymd4nm9aq/2020-06-15_16-42-07.694000_hAtE
+
+Matrices webLink
+  matrix-3td5s8luf1szl https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6018808588935509906/executions/bs.1e596612daafc58a
+
+  0m  0s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 PENDING
+  0m  0s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 PENDING
+  0m  0s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 PENDING
+  0m  0s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 PENDING
+  0m  0s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 PENDING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  0m 31s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 RUNNING
+  1m 24s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Preparing device.
+  1m 24s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Preparing device.
+  1m 24s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Preparing device.
+  1m 24s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Preparing device.
+  1m 47s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Installing apps.
+  1m 47s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Installing apps.
+  1m 59s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Completed instrumentation test.
+  1m 59s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Completed instrumentation test.
+  1m 59s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Completed instrumentation test.
+  2m 17s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 Stopped logcat recording.
+  2m 22s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 FINISHED
+  2m 22s matrix-3td5s8luf1szl NexusLowRes-28 shard-0 FINISHED
+  2m 28s matrix-3td5s8luf1szl FINISHED
+
+FetchArtifacts
+  .
+  Updating matrix file
+
+CostReport
+  Virtual devices
+    $0.02 for 1m
+
+MatrixResultsReport
+  0 / 1 (0.00%)
+  1 matrices failed
+
+More details are available at [https://console.firebase.google.com/project/flank-open-source/testlab/histories/bh.da0c237aaa33732/matrices/6018808588935509906]
+┌─────────┬────────────────────────┬────────────────────┐
+│ OUTCOME │    TEST_AXIS_VALUE     │    TEST_DETAILS    │
+├─────────┼────────────────────────┼────────────────────┤
+│ failure │  matrix-3td5s8luf1szl  │                    │
+└─────────┴────────────────────────┴────────────────────┘
+  Uploading JUnitReport.xml .
